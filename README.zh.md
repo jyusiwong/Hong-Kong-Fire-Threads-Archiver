@@ -12,64 +12,31 @@
 <tr>
 <td width="30%" align="center">
 
-### 🐰 **朱迪·哈普斯**
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="120" alt="朱迪 Judy Hopps"/>
+<div align="center">
 
-**「任何人都能成就任何事！」**
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🎬 極簡符號標頭 — 高反差、無圖片 -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-*警官朱迪·哈普斯*  
-*動物城警局徽章 #9-1-7*
+<h1>Threads 內容採集器</h1>
+<h3>Disney · Zootopia · 檔案館</h3>
 
-</td>
-<td width="40%" align="center">
+<pre>
+◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎
+  ● ◯ ● ◯ ● ◯ ● ◯ ● ◯
+    ❦   ❧   ❦   ❧
+  ● ◯ ● ◯ ● ◯ ● ◯ ● ◯
+◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎
 
-### ❄️ **來自動物方城市的聖誕祝福！** 🎄
+珍藏 • 歸檔 • 整理 — 一點點魔法的溫度
+</pre>
 
-🦊 · 🐰 · ✨ · ❄️ · 🎁 · 🎅
-
-**珍藏您最愛的回憶**  
-**歸檔您的迪士尼時刻**  
-**用 AI 魔法整理一切**
-
----
-
-#### 🎬 *用心記錄，逐一珍藏*
-
-```
-  ❄️  ❄️  ❄️  ❄️  ❄️  ❄️
-    🎄 佳節愉快！🎄
-  ❄️  ❄️  ❄️  ❄️  ❄️  ❄️
-```
-
-</td>
-<td width="30%" align="center">
-
-### 🦊 **尼克·懷爾德**
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="120" alt="阿力 Nick Wilde"/>
-
-**「這叫做手腕，親愛的。」**
-
-*尼克·懷爾德*  
-*動物城警局初級警員*
-
-</td>
-</tr>
-</table>
+<p>
+◆ 朱迪·哈普斯 · 尼克·王爾德 ◆
+— 影棚風格極簡；GitHub 安全字元 —
+</p>
 
 ---
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-### 🎯 **專案狀態與導覽**
-
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=statuspage&logoColor=white)](.)
-[![Christmas](https://img.shields.io/badge/聖誕季-Christmas_2025-red?style=for-the-badge&logo=snowflake&logoColor=white)](#)
-
-[🌏 English](README.md) • [📚 文件傳送門](#-文件指南) • [⚡ 快速開始](#-快速開始) • [🎨 運作原理](#-運作原理)
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 > *「我懇請每一位看到這段話的人，去嘗試。嘗試讓這個世界變得更美好。審視自己的內心，認知到改變從你開始。」*  
 > — **朱迪·哈普斯**

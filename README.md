@@ -1,60 +1,26 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 🎄 CHRISTMAS ZOOTOPIA BANNER 2025 ❄️ -->
+<!-- 🎬 Symbolic Studio Header — High Contrast, No Images -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=200&section=header&text=Threads%20Content%20Collector&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=40"/>
+<h1>Threads Content Collector</h1>
+<h3>Disney · Zootopia · Archive</h3>
 
-<h3 align="center">🎄 ❄️ Your Personal Disney & Zootopia Archive ✨ 🎁</h3>
+<pre>
+◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎
+    ● ◯ ● ◯ ● ◯ ● ◯ ● ◯
+        ❦   ❧   ❦   ❧
+    ● ◯ ● ◯ ● ◯ ● ◯ ● ◯
+◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎ ◻︎ ◼︎
 
-<table>
-<tr>
-<td width="30%" align="center">
+Collect • Archive • Organize — with a touch of magic
+</pre>
 
-### 🐰 **Judy Hopps**
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="120" alt="Judy Hopps"/>
-
-**"Anyone can be anything!"**
-
-*Officer Judy Hopps*  
-*ZPD Badge #9-1-7*
-
-</td>
-<td width="40%" align="center">
-
-### ❄️ **Merry Christmas from Zootopia!** 🎄
-
-🦊 · 🐰 · ✨ · ❄️ · 🎁 · 🎅
-
-**Collect your favorite memories**  
-**Archive your Disney moments**  
-**Organize with AI magic**
-
----
-
-#### 🎬 *Making Memories, One Post at a Time*
-
-```
-  ❄️  ❄️  ❄️  ❄️  ❄️  ❄️
-    🎄 Happy Holidays! 🎄
-  ❄️  ❄️  ❄️  ❄️  ❄️  ❄️
-```
-
-</td>
-<td width="30%" align="center">
-
-### 🦊 **Nick Wilde**
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="120" alt="Nick Wilde"/>
-
-**"It's called a hustle, sweetheart."**
-
-*Nick Wilde*  
-*ZPD Junior Officer*
-
-</td>
-</tr>
-</table>
+<p>
+◆ Judy Hopps · Nick Wilde ◆
+— Studio-style minimalism; GitHub-safe glyphs —
+</p>
 
 ---
 

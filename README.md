@@ -1,127 +1,78 @@
 <div align="center">
 
-<!-- Christmas Zootopia Interactive Banner -->
-<div style="position: relative; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 60px 20px; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.3); margin-bottom: 30px;">
-  
-  <!-- Snowflakes Animation -->
-  <style>
-    @keyframes snowfall {
-      0% { transform: translateY(-10px) translateX(0px); opacity: 1; }
-      100% { transform: translateY(100vh) translateX(100px); opacity: 0; }
-    }
-    @keyframes twinkle {
-      0%, 100% { opacity: 0.3; }
-      50% { opacity: 1; }
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-20px); }
-    }
-    @keyframes glow {
-      0%, 100% { filter: drop-shadow(0 0 5px rgba(255,255,255,0.5)); }
-      50% { filter: drop-shadow(0 0 20px rgba(255,255,255,0.9)); }
-    }
-    .snowflake {
-      position: absolute;
-      top: -10px;
-      color: white;
-      font-size: 1.5em;
-      animation: snowfall linear infinite;
-      pointer-events: none;
-      user-select: none;
-    }
-    .character-img {
-      transition: all 0.3s ease;
-      animation: float 3s ease-in-out infinite;
-    }
-    .character-img:hover {
-      transform: scale(1.1) translateY(-10px);
-      animation: glow 1.5s ease-in-out infinite;
-    }
-    .christmas-lights {
-      position: absolute;
-      top: 10px;
-      left: 0;
-      right: 0;
-      height: 20px;
-      background: repeating-linear-gradient(
-        90deg,
-        #ff0000 0px, #ff0000 20px,
-        #00ff00 20px, #00ff00 40px,
-        #ffff00 40px, #ffff00 60px,
-        #0000ff 60px, #0000ff 80px
-      );
-      opacity: 0.6;
-      animation: twinkle 2s ease-in-out infinite;
-    }
-    .banner-title {
-      color: white;
-      text-shadow: 0 0 20px rgba(255,255,255,0.5), 0 0 40px rgba(147,51,234,0.5);
-      margin: 20px 0;
-      font-size: 3em;
-      font-weight: bold;
-    }
-    .banner-subtitle {
-      color: #e0e7ff;
-      font-size: 1.3em;
-      margin-bottom: 20px;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-    }
-  </style>
-  
-  <!-- Christmas Lights -->
-  <div class="christmas-lights"></div>
-  
-  <!-- Snowflakes -->
-  <div class="snowflake" style="left: 10%; animation-duration: 10s; animation-delay: 0s;">❄</div>
-  <div class="snowflake" style="left: 20%; animation-duration: 12s; animation-delay: 2s;">❅</div>
-  <div class="snowflake" style="left: 30%; animation-duration: 15s; animation-delay: 4s;">❆</div>
-  <div class="snowflake" style="left: 40%; animation-duration: 11s; animation-delay: 1s;">❄</div>
-  <div class="snowflake" style="left: 50%; animation-duration: 13s; animation-delay: 3s;">❅</div>
-  <div class="snowflake" style="left: 60%; animation-duration: 14s; animation-delay: 5s;">❆</div>
-  <div class="snowflake" style="left: 70%; animation-duration: 10s; animation-delay: 2s;">❄</div>
-  <div class="snowflake" style="left: 80%; animation-duration: 12s; animation-delay: 4s;">❅</div>
-  <div class="snowflake" style="left: 90%; animation-duration: 11s; animation-delay: 1s;">❆</div>
-  
-  <!-- Character Images and Title -->
-  <div style="display: flex; align-items: center; justify-content: center; gap: 40px; position: relative; z-index: 10; flex-wrap: wrap;">
-    
-    <!-- Judy Hopps -->
-    <img class="character-img" src="https://static.wikia.nocookie.net/disney/images/6/6c/Judy_Hopps_Zootopia_Render.png" alt="Judy Hopps" width="180" style="animation-delay: 0s;" onerror="this.src='https://via.placeholder.com/180x200/9333ea/ffffff?text=🐰+Judy'">
-    
-    <!-- Center Title -->
-    <div style="text-align: center; max-width: 500px;">
-      <h1 class="banner-title">🎬 Threads Content Collector</h1>
-      <p class="banner-subtitle">✨ Your Personal Disney & Zootopia Archive ✨</p>
-      <p style="color: #fef3c7; font-size: 0.9em; margin-top: 10px;">🎄 Merry Christmas from Zootopia! ❄️</p>
-    </div>
-    
-    <!-- Nick Wilde -->
-    <img class="character-img" src="https://static.wikia.nocookie.net/disney/images/f/f9/Nick_Wilde_Zootopia_Render.png" alt="Nick Wilde" width="180" style="animation-delay: 1.5s;" onerror="this.src='https://via.placeholder.com/180x200/9333ea/ffffff?text=🦊+Nick'">
-    
-  </div>
-  
-  <!-- Badges -->
-  <div style="margin-top: 30px; position: relative; z-index: 10;">
-    <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python"></a>
-    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
-    <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
-    <img src="https://img.shields.io/badge/Season-Christmas_2025-red.svg?logo=snowflake" alt="Christmas 2025">
-  </div>
-  
-  <!-- Navigation -->
-  <div style="margin-top: 20px; color: white; position: relative; z-index: 10;">
-    <a href="README.zh.md" style="color: #fef3c7; text-decoration: none; margin: 0 10px;">🌏 繁體中文</a> | 
-    <strong>English</strong> | 
-    <a href="#-documentation" style="color: #fef3c7; text-decoration: none; margin: 0 10px;">📚 Documentation Portal</a>
-  </div>
-  
-  <!-- Tagline -->
-  <p style="color: #e0e7ff; margin-top: 20px; font-style: italic; position: relative; z-index: 10;">
-    Collect, organize, and archive your favorite Threads posts about Disney, Zootopia, recipes, and more!
-  </p>
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🎄 CHRISTMAS ZOOTOPIA BANNER 2025 ❄️ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=200&section=header&text=🎄%20Threads%20Content%20Collector%20❄️&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Your%20Personal%20Disney%20%26%20Zootopia%20Archive%20✨&descSize=20&descAlignY=55"/>
+
+<table>
+<tr>
+<td width="30%" align="center">
+
+### 🐰 **Judy Hopps**
+<img src="https://i.imgur.com/6kMRYYC.png" width="200" alt="Judy Hopps" onerror="this.src='https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg'"/>
+
+**"Anyone can be anything!"**
+
+*Officer Judy Hopps*  
+*ZPD Badge #9-1-7*
+
+</td>
+<td width="40%" align="center">
+
+### ❄️ **Merry Christmas from Zootopia!** 🎄
+
+🦊 · 🐰 · ✨ · ❄️ · 🎁 · 🎅
+
+**Collect your favorite memories**  
+**Archive your Disney moments**  
+**Organize with AI magic**
+
+---
+
+#### 🎬 *Making Memories, One Post at a Time*
+
+```
+  ❄️  ❄️  ❄️  ❄️  ❄️  ❄️
+    🎄 Happy Holidays! 🎄
+  ❄️  ❄️  ❄️  ❄️  ❄️  ❄️
+```
+
+</td>
+<td width="30%" align="center">
+
+### 🦊 **Nick Wilde**
+<img src="https://i.imgur.com/kFwGVTa.png" width="200" alt="Nick Wilde" onerror="this.src='https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg'"/>
+
+**"It's called a hustle, sweetheart."**
+
+*Nick Wilde*  
+*ZPD Junior Officer*
+
+</td>
+</tr>
+</table>
+
+---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+### 🎯 **Project Status & Navigation**
+
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=statuspage&logoColor=white)](.)
+[![Christmas](https://img.shields.io/badge/Season-Christmas_2025-red?style=for-the-badge&logo=snowflake&logoColor=white)](#)
+
+[🌏 繁體中文](README.zh.md) • [📚 Documentation Portal](#-documentation) • [⚡ Quick Start](#-quick-start) • [🎨 How It Works](#-how-it-works)
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+> *"I implore everyone who sees this, try. Try to make the world a better place. Look inside yourself and recognize that change starts with you."*  
+> — **Judy Hopps**
+
+**Collect, organize, and archive your favorite Threads posts about Disney, Zootopia, recipes, and more!**
 
 </div>
 

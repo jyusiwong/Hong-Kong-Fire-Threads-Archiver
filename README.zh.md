@@ -1,127 +1,78 @@
 <div align="center">
 
-<!-- Christmas Zootopia Interactive Banner -->
-<div style="position: relative; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 60px 20px; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.3); margin-bottom: 30px;">
-  
-  <!-- Snowflakes Animation -->
-  <style>
-    @keyframes snowfall {
-      0% { transform: translateY(-10px) translateX(0px); opacity: 1; }
-      100% { transform: translateY(100vh) translateX(100px); opacity: 0; }
-    }
-    @keyframes twinkle {
-      0%, 100% { opacity: 0.3; }
-      50% { opacity: 1; }
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-20px); }
-    }
-    @keyframes glow {
-      0%, 100% { filter: drop-shadow(0 0 5px rgba(255,255,255,0.5)); }
-      50% { filter: drop-shadow(0 0 20px rgba(255,255,255,0.9)); }
-    }
-    .snowflake {
-      position: absolute;
-      top: -10px;
-      color: white;
-      font-size: 1.5em;
-      animation: snowfall linear infinite;
-      pointer-events: none;
-      user-select: none;
-    }
-    .character-img {
-      transition: all 0.3s ease;
-      animation: float 3s ease-in-out infinite;
-    }
-    .character-img:hover {
-      transform: scale(1.1) translateY(-10px);
-      animation: glow 1.5s ease-in-out infinite;
-    }
-    .christmas-lights {
-      position: absolute;
-      top: 10px;
-      left: 0;
-      right: 0;
-      height: 20px;
-      background: repeating-linear-gradient(
-        90deg,
-        #ff0000 0px, #ff0000 20px,
-        #00ff00 20px, #00ff00 40px,
-        #ffff00 40px, #ffff00 60px,
-        #0000ff 60px, #0000ff 80px
-      );
-      opacity: 0.6;
-      animation: twinkle 2s ease-in-out infinite;
-    }
-    .banner-title {
-      color: white;
-      text-shadow: 0 0 20px rgba(255,255,255,0.5), 0 0 40px rgba(147,51,234,0.5);
-      margin: 20px 0;
-      font-size: 3em;
-      font-weight: bold;
-    }
-    .banner-subtitle {
-      color: #e0e7ff;
-      font-size: 1.3em;
-      margin-bottom: 20px;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-    }
-  </style>
-  
-  <!-- Christmas Lights -->
-  <div class="christmas-lights"></div>
-  
-  <!-- Snowflakes -->
-  <div class="snowflake" style="left: 10%; animation-duration: 10s; animation-delay: 0s;">❄</div>
-  <div class="snowflake" style="left: 20%; animation-duration: 12s; animation-delay: 2s;">❅</div>
-  <div class="snowflake" style="left: 30%; animation-duration: 15s; animation-delay: 4s;">❆</div>
-  <div class="snowflake" style="left: 40%; animation-duration: 11s; animation-delay: 1s;">❄</div>
-  <div class="snowflake" style="left: 50%; animation-duration: 13s; animation-delay: 3s;">❅</div>
-  <div class="snowflake" style="left: 60%; animation-duration: 14s; animation-delay: 5s;">❆</div>
-  <div class="snowflake" style="left: 70%; animation-duration: 10s; animation-delay: 2s;">❄</div>
-  <div class="snowflake" style="left: 80%; animation-duration: 12s; animation-delay: 4s;">❅</div>
-  <div class="snowflake" style="left: 90%; animation-duration: 11s; animation-delay: 1s;">❆</div>
-  
-  <!-- Character Images and Title -->
-  <div style="display: flex; align-items: center; justify-content: center; gap: 40px; position: relative; z-index: 10; flex-wrap: wrap;">
-    
-    <!-- Judy Hopps -->
-    <img class="character-img" src="https://static.wikia.nocookie.net/disney/images/6/6c/Judy_Hopps_Zootopia_Render.png" alt="朱迪 Judy Hopps" width="180" style="animation-delay: 0s;" onerror="this.src='https://via.placeholder.com/180x200/9333ea/ffffff?text=🐰+朱迪'">
-    
-    <!-- Center Title -->
-    <div style="text-align: center; max-width: 500px;">
-      <h1 class="banner-title">🎬 Threads 內容收藏家</h1>
-      <p class="banner-subtitle">✨ 您的專屬迪士尼與優獸大都會檔案館 ✨</p>
-      <p style="color: #fef3c7; font-size: 0.9em; margin-top: 10px;">🎄 來自動物方城市的聖誕祝福！❄️</p>
-    </div>
-    
-    <!-- Nick Wilde -->
-    <img class="character-img" src="https://static.wikia.nocookie.net/disney/images/f/f9/Nick_Wilde_Zootopia_Render.png" alt="阿力 Nick Wilde" width="180" style="animation-delay: 1.5s;" onerror="this.src='https://via.placeholder.com/180x200/9333ea/ffffff?text=🦊+阿力'">
-    
-  </div>
-  
-  <!-- Badges -->
-  <div style="margin-top: 30px; position: relative; z-index: 10;">
-    <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python"></a>
-    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
-    <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
-    <img src="https://img.shields.io/badge/聖誕季-Christmas_2025-red.svg?logo=snowflake" alt="聖誕節 2025">
-  </div>
-  
-  <!-- Navigation -->
-  <div style="margin-top: 20px; color: white; position: relative; z-index: 10;">
-    <strong>繁體中文</strong> | 
-    <a href="README.md" style="color: #fef3c7; text-decoration: none; margin: 0 10px;">🌏 English</a> | 
-    <a href="#-文件指南" style="color: #fef3c7; text-decoration: none; margin: 0 10px;">📚 文件傳送門</a>
-  </div>
-  
-  <!-- Tagline -->
-  <p style="color: #e0e7ff; margin-top: 20px; font-style: italic; position: relative; z-index: 10;">
-    用心珍藏、整理並歸檔您最愛的 Threads 貼文——關於迪士尼、優獸大都會 (Zootopia)、食譜以及更多！
-  </p>
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 🎄 聖誕節動物方城市橫幅 2025 ❄️ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=200&section=header&text=🎄%20Threads%20內容收藏家%20❄️&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=35&desc=您的專屬迪士尼與優獸大都會檔案館%20✨&descSize=20&descAlignY=55"/>
+
+<table>
+<tr>
+<td width="30%" align="center">
+
+### 🐰 **朱迪·哈普斯**
+<img src="https://i.imgur.com/6kMRYYC.png" width="200" alt="朱迪 Judy Hopps" onerror="this.src='https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg'"/>
+
+**「任何人都能成就任何事！」**
+
+*警官朱迪·哈普斯*  
+*動物城警局徽章 #9-1-7*
+
+</td>
+<td width="40%" align="center">
+
+### ❄️ **來自動物方城市的聖誕祝福！** 🎄
+
+🦊 · 🐰 · ✨ · ❄️ · 🎁 · 🎅
+
+**珍藏您最愛的回憶**  
+**歸檔您的迪士尼時刻**  
+**用 AI 魔法整理一切**
+
+---
+
+#### 🎬 *用心記錄，逐一珍藏*
+
+```
+  ❄️  ❄️  ❄️  ❄️  ❄️  ❄️
+    🎄 佳節愉快！🎄
+  ❄️  ❄️  ❄️  ❄️  ❄️  ❄️
+```
+
+</td>
+<td width="30%" align="center">
+
+### 🦊 **尼克·懷爾德**
+<img src="https://i.imgur.com/kFwGVTa.png" width="200" alt="阿力 Nick Wilde" onerror="this.src='https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg'"/>
+
+**「這叫做手腕，親愛的。」**
+
+*尼克·懷爾德*  
+*動物城警局初級警員*
+
+</td>
+</tr>
+</table>
+
+---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+### 🎯 **專案狀態與導覽**
+
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=statuspage&logoColor=white)](.)
+[![Christmas](https://img.shields.io/badge/聖誕季-Christmas_2025-red?style=for-the-badge&logo=snowflake&logoColor=white)](#)
+
+[🌏 English](README.md) • [📚 文件傳送門](#-文件指南) • [⚡ 快速開始](#-快速開始) • [🎨 運作原理](#-運作原理)
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+> *「我懇請每一位看到這段話的人，去嘗試。嘗試讓這個世界變得更美好。審視自己的內心，認知到改變從你開始。」*  
+> — **朱迪·哈普斯**
+
+**用心珍藏、整理並歸檔您最愛的 Threads 貼文——關於迪士尼、優獸大都會 (Zootopia)、食譜以及更多！**
 
 </div>
 
